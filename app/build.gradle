@@ -29,9 +29,24 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures{
+        viewBinding=true
+    }
 }
 
 dependencies {
+
+    //ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
+
+    //LifeData
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.4.1"
+
+    // Fragment
+    implementation "androidx.fragment:fragment-ktx:1.4.1"
+
+    // Activity
+    implementation "androidx.activity:activity-ktx:1.4.0"
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
