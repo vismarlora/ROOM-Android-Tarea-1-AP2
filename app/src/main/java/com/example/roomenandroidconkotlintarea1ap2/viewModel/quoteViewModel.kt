@@ -1,4 +1,4 @@
-package com.example.roomenandroidconkotlintarea1ap2.ViewModel
+package com.example.roomenandroidconkotlintarea1ap2.viewModel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

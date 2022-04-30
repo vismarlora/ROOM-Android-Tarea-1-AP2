@@ -1,4 +1,4 @@
-package com.example.roomenandroidconkotlintarea1ap2
+package com.example.roomenandroidconkotlintarea1ap2.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
