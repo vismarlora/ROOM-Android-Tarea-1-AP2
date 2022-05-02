@@ -1,12 +1,11 @@
-package com.example.roomenandroidconkotlintarea1ap2.view
+package com.example.roomenandroidconkotlintarea1ap2.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.lifecycle.Observer
 import com.example.roomenandroidconkotlintarea1ap2.databinding.ActivityMainBinding
-import com.example.roomenandroidconkotlintarea1ap2.model.QuoteModel
-import com.example.roomenandroidconkotlintarea1ap2.viewModel.quoteViewModel
+import com.example.roomenandroidconkotlintarea1ap2.ui.view.viewModel.quoteViewModel
 
 class MainActivity : AppCompatActivity() {
 
