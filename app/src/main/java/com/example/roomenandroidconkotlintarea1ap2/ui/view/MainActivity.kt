@@ -7,6 +7,9 @@ import androidx.core.view.isVisible
 import androidx.lifecycle.Observer
 import com.example.roomenandroidconkotlintarea1ap2.databinding.ActivityMainBinding
 import com.example.roomenandroidconkotlintarea1ap2.ui.view.viewModel.quoteViewModel
+import dagger.hilt.android.AndroidEntryPoint
+
+@AndroidEntryPoint
 
 class MainActivity : AppCompatActivity() {
 
